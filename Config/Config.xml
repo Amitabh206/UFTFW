@@ -1,0 +1,112 @@
+<Environment>
+	<Variable>
+		<Name>BrowserType</Name> <!-- Browser Type Can be 'IE/FF' -->
+		<Value>IE</Value>
+	</Variable>
+
+	<Variable>
+		<Name>TestEnvironment</Name> <!-- Test Environment Can be 'DT/DS/PROD' -->
+		<Value>DT</Value>
+	</Variable>
+	
+
+	<Variable>
+		<Name>LanguageID</Name> <!-- Language ID should be provided English,French,German,Spanish -->
+		<Value>English</Value>
+	</Variable>
+
+	<Variable>
+		<Name>htmlReportSuiteName</Name> <!-- HTML Results Report Name that should be displayed -->
+		<Value>IFS_ProductSuite</Value>
+	</Variable>
+
+	<Variable>
+		<Name>executionReportPath</Name> <!-- Path where HTML Results Report should be save in the path -->
+		<Value>C:\Impact\IFS_ProductSuite\TestResults\ScreenShots</Value>
+	</Variable>
+		
+	<Variable>
+		<Name>executionTestCasesReportPath</Name> <!-- Path where HTML Results Report should be save in the path -->
+		<Value>C:\Impact\IFS_ProductSuite\TestResults\TestCases</Value>
+	</Variable>
+	
+
+	<Variable>
+		<Name>reportTxtFileName</Name> <!-- Name of the text log file name for Results Report to be saved in -->
+		<Value>ResultsLog</Value>
+	</Variable>
+
+	<Variable>
+		<Name>reportHtmlFileName</Name> <!-- Name of the HTML Results Report file name -->
+		<Value>IFSSuiteExecutionReport</Value>
+	</Variable>
+
+	<Variable>
+		<Name>TestDataFileLocationWithFileName</Name> <!-- Excel test data file path and name -->
+		<Value>C:\Impact\IFS_ProductSuite\TestData\IFS_ProductTestData.xls</Value>
+	</Variable>
+	<Variable>
+		<Name>TestDataFileLocation</Name> <!-- Excel test data file path and name -->
+		<Value>C:\Impact\IFS_ProductSuite\TestData</Value>
+	</Variable>
+	<Variable>
+		<Name>ProjectPath</Name> <!-- Excel test data file path and name -->
+		<Value>C:\Impact\IFS_ProductSuite\</Value>
+	</Variable>
+	<Variable>
+		<Name>ResultsLogTitle</Name> <!-- Results Log Title -->
+		<Value>IFS Automation</Value>
+	</Variable>
+	
+	<Variable>
+	        <Name>debugMode</Name>  <!-- Debug Mode Set To True/False -->
+        	<Value>False</Value>
+	</Variable>	
+	<Variable>
+		<Name>syncWait</Name> <!-- Minimum sync Wait Time -->
+		<Value>2</Value>
+	</Variable>
+	<Variable>
+		<Name>ShortWait</Name> <!-- Short Wait Time-->
+		<Value>5</Value>
+	</Variable>
+	<Variable>
+		<Name>MediumWait</Name> <!-- Medium Wait Time -->
+		<Value>10</Value>
+	</Variable>
+	<Variable>
+		<Name>LongWait</Name> <!-- Long Wait Time -->
+		<Value>25</Value>
+	</Variable>
+	<Variable>
+		<Name>delayInterval</Name>  <!-- Delay Interval Time -->
+		<Value>1</Value>
+	</Variable>
+	<Variable>
+		<Name>TimeOut</Name>  <!-- TimeOut Time -->
+		<Value>50</Value>
+	</Variable>
+	<Variable>
+		<Name>ProductURL</Name>  <!-- Login User Name for Clarity -->
+		<Value>https://qa.ifsautomation.com/Product</Value>
+	</Variable>
+    <Variable>
+		<Name>BranchURL</Name>  <!-- Login User Name for Clarity -->
+		<Value>https://qa.ifsautomation.com/G2V2Branch/</Value>
+	</Variable>
+	<Variable>
+		<Name>TrunkURL</Name>  <!-- Login User Name for Clarity -->
+		<Value>https://qa.ifsautomation.com/G2V2Trunk/</Value>
+	</Variable>
+	
+	
+	<Variable>
+		<Name>LoginUserName</Name>  <!-- Login User Name for Clarity -->
+		<Value>chrisj</Value>
+	</Variable>
+	<Variable>
+		<Name>LoginPassword</Name>  <!-- Login User Password for Clarity -->
+		<Value>password</Value>
+	</Variable>
+
+</Environment>
